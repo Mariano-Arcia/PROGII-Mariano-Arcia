@@ -76,6 +76,6 @@ print("")
 
 #Punto 12
 print("Punto 12")
-It_companies.clear
+It_companies.clear()
 print(It_companies)
 print("")
