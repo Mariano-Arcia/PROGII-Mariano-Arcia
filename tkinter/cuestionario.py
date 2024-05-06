@@ -59,13 +59,13 @@ cd_6.grid(row=6, column=0, sticky="w", pady=2)
 var_genero = tk.StringVar()
 var_genero.set("Masculino")
 
-rb_hombre = tk.Radiobutton(ventana, text="Masculino", variable=var_genero, value="Masculino")
-rb_mujer = tk.Radiobutton(ventana, text="Femenino", variable=var_genero, value="Femenino")
-rb_hombre.grid(row=7, column=0, sticky="w", pady=2)
-rb_mujer.grid(row=8, column=0, sticky="w", pady=2)
+h = tk.Radiobutton(ventana, text="Masculino", variable=var_genero, value="Masculino")
+m = tk.Radiobutton(ventana, text="Femenino", variable=var_genero, value="Femenino")
+h.grid(row=7, column=0, sticky="w", pady=2)
+m.grid(row=8, column=0, sticky="w", pady=2)
 
-bd_ciudad = tk.Button(ventana, text="Seleccionar ciudad", command=mostrar_datos, font=("Arial",15))
-bd_ciudad.grid(row=9, column=0, pady=10)
+ciudad = tk.Button(ventana, text="Seleccionar ciudad", command=mostrar_datos, font=("Arial",15))
+Hciudad.grid(row=9, column=0, pady=10)
 
 cd_7 = tk.Listbox(ventana, width=10, selectmode="single", font=("Arial",15))
 ciudades = ["Bogota", "Cartagena", "Barranquilla", "Cali", "Medellin"]
