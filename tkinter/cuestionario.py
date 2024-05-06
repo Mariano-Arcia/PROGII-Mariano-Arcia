@@ -44,27 +44,27 @@ bd_3 = tk.Button(ventana, text="Ingresar edad", command=mostrar_datos, font=("Ar
 bd_3.grid(row=3, column=0, sticky="w", pady=2)
 
 cd_4 = tk.Entry(ventana, width=30, font=("Arial",15))
-cd_4.grid(row=3, column=0, sticky="w", pady=2)
+cd_4.grid(row=4, column=0, sticky="w", pady=2)
 bd_4 = tk.Button(ventana, text="Ingresar direccion", command=mostrar_datos, font=("Arial",15))
-bd_4.grid(row=3, column=0, sticky="w", pady=2)
+bd_4.grid(row=4, column=0, sticky="w", pady=2)
 
 
 cd_5 = tk.Entry(ventana, width=30, font=("Arial",15))
-cd_5.grid(row=3, column=0, sticky="w", pady=2)
+cd_5.grid(row=5, column=0, sticky="w", pady=2)
 bd_5 = tk.Button(ventana, text="Ingresar telefono", command=mostrar_datos, font=("Arial",15))
-bd_5.grid(row=3, column=0, sticky="w", pady=2)
+bd_5.grid(row=5, column=0, sticky="w", pady=2)
 
 
 cd_6 = tk.Entry(ventana, width=30, font=("Arial",15))
-cd_6.grid(row=3, column=0, sticky="w", pady=2)
+cd_6.grid(row=6, column=0, sticky="w", pady=2)
 bd_6 = tk.Button(ventana, text="Ingresar sexo", command=mostrar_datos, font=("Arial",15))
-bd_6.grid(row=3, column=0, sticky="w", pady=2)
+bd_6.grid(row=6, column=0, sticky="w", pady=2)
 
 
 cd_7 = tk.Entry(ventana, width=30, font=("Arial",15))
-cd_7.grid(row=3, column=0, sticky="w", pady=2)
+cd_7.grid(row=7, column=0, sticky="w", pady=2)
 bd_7 = tk.Button(ventana, text="Ingresar ciudad", command=mostrar_datos, font=("Arial",15))
-bd_7.grid(row=3, column=0, sticky="w", pady=2)
+bd_7.grid(row=7, column=0, sticky="w", pady=2)
 
 etiqueta_datos = tk.Label(ventana, text="", bg="grey", fg="white", font=("Arial", 20), width=50, height=4, anchor="center")
 etiqueta_datos.grid(row=5, column=0, sticky="w", pady=2)
