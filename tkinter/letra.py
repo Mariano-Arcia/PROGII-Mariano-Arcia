@@ -1,15 +1,15 @@
 from tkinter import *
 from PIL import Image, ImageTk 
 import tkinter as tk
-main=Tk()
+ventana=Tk()
 
-path = Image.open("logo.png")
+ventana = Image.open("logo.png")
 icono = ImageTk.PhotoImage(path)
-main.iconphoto(True, icono)
-main.title("Unitecnar")
-main.geometry("1024x920")
-main.resizable(True, True)
-main.config(bg="light grey")
+ventana.iconphoto(True, icono)
+ventana.title("Ejercicio #3")
+ventana.geometry("800x800")
+ventana.resizable(True, True)
+ventana.config(bg="grey")
 
 fr1=Frame(main)
 
@@ -20,13 +20,13 @@ titulo.pack()
 
 nombre=Label(fr2,text="Ingrese Nombre")
 nombre.pack()
-user=Entry(fr2)
-user.pack()
+no=Entry(fr2)
+no.pack()
 
 clave = Label(fr2, text = "Ingrese Clave")
 clave.pack()
-user1 = Entry(fr2)
-user1.pack()
+cl = Entry(fr2)
+cl.pack()
 
 n2=Label(fr1,text="Imagen", image=icono)
 
@@ -42,8 +42,8 @@ fr2.pack(side="right")
 
 
 def obtener ():
-    nombre = user.get()
-    clave = user1.get()
+    nombre = no.get()
+    clave = cl.get()
 print(nombre,clave)
 
 
